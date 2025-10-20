@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+    padding: 1%;
+    background: red;
+}
+
+.hero1{
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+}
+
+.hero-descricao{
+    width: 50%;
+    border: 3px solid burlywood;
+    background: blue;
+}
+
+.hero-imagem{
+    width: 50%;
+    height: 500px;
+    border: 3px solid #000;
+    background: palevioletred;
+}
+
+.hero-cards{
+    display: flex;
+    border: 4px solid green;
+}
+
+.card{
+    border: 1px solid blue;
+    background: rgb(0, 255, 204);
+}
+
+footer{
+    border: 3px solid #900013;
+    text-align: center;
+}
